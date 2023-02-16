@@ -19,6 +19,7 @@
         height: 700px;
         width: 70%;
         background-color: #ffff;
+        line-height: normal;
         padding-top: 150pxx;
         padding-left: 30px;
 
@@ -110,11 +111,14 @@
 
     #cards {
         display: block;
-        margin-bottom: 30px;
+       
     }
 
     #cards.card{
         width: 100%;
+        margin-bottom: 30px;
+
+    
     }
 
     #cards.card:nth-child(2),
